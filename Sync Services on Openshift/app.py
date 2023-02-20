@@ -748,9 +748,9 @@ def post_job():
                 }
                 })
                 headers = {
-                'Authorization': 'Bearer AQWRfu3AN9G8-xnxk3cY0JaTTdc4iO-7WUKLl4upLkwcRwckfqvQ9Lw1hrcBYVZpRnQDvVmPiCSLJclDdvj9qoEMZbxloZ8UtEbmx090gltvOkFqhWhd1cp1QODXlfxNF-n9ABCFFlPQ7uQwALKUsRepj6Q87l8_uc5cUmhbqFEz3djX-lHqtmoEB4FVa4SBZ_JFiBDvParG316JaUlZGmwTwHBOk2N_zA4ceQeOcTrdXy7WUmMbXd2Vd7AzKF0Oqtl_Ws_RKwd28HnAbnKKsarzrnidjqZYPIcedK7U_XwMP6xMLxrk9YzbIpLXU8baWbRAuTPUSiwPThycM5cuuaBL48uNcw',
+                'Authorization': 'Bearer AQUqTAgAe2qBST4J_tUQmKKTiJlCRtDda5C0K37pOIAhLzrS00fnxh6t3E7W7twcUNln6YYDDJi__7wKlJmWaoMZa50rwfarCG12Z1T4gv-bOShvC76Pfk2bPSkydQBQYSWXVe7SZqBWFp3BnbGAjOZ3fRQ9p2n5HIFL9pn4kN8Eu3Q1twhzKmrEMo1JGB6xY4zSy_B__Zh9_4agQB8hUiXNRpb-B1WuxeO5curzYntr35NXBi833VmQTObvpbyrJgY7EYm7qwkdUWuNfRn-Ae5xzG7tR747qtuMFaigvubiyjAKoTfMqh1WrPMpwI2NvbUaBL7Ty5EwJm1YODta3FSa58hbPQ',
                 'Content-Type': 'application/json',
-                'Cookie': 'lidc="b=VB51:s=V:r=V:a=V:p=V:g=3284:u=4:x=1:i=1671642348:t=1671646515:v=2:sig=AQHVEdai1Q7Lj8Q0N3KQa7lXThuRe94y"; bcookie="v=2&f4a53cc3-9f87-47d7-8a78-cf544bcd2e41"; lang=v=2&lang=en-us; lidc="b=VB51:s=V:r=V:a=V:p=V:g=3284:u=4:x=1:i=1671642243:t=1671642915:v=2:sig=AQHvcQ2xL0pmGu5QzgdkFrF8rt1CBDV8"'
+                'Cookie': 'bcookie="v=2&f4a53cc3-9f87-47d7-8a78-cf544bcd2e41"; lang=v=2&lang=en-us; lidc="b=TB51:s=T:r=T:a=T:p=T:g=3357:u=44:x=1:i=1676875883:t=1676936873:v=2:sig=AQGEsmudu-k84aZZ5WD0IjoDhRs8aEDP"'
                 }
 
                 response = requests.request("POST", url, headers=headers, data=payload)
