@@ -733,7 +733,7 @@ def post_job():
                 url = "https://api.linkedin.com/v2/ugcPosts"
 
                 payload = json.dumps({
-                "author": "urn:li:person:Ayyquo2cKD",
+                "author": "urn:li:person:PUwo_FRSub",
                 "lifecycleState": "PUBLISHED",
                 "specificContent": {
                     "com.linkedin.ugc.ShareContent": {
@@ -748,9 +748,8 @@ def post_job():
                 }
                 })
                 headers = {
-                'Authorization': 'Bearer AQUqTAgAe2qBST4J_tUQmKKTiJlCRtDda5C0K37pOIAhLzrS00fnxh6t3E7W7twcUNln6YYDDJi__7wKlJmWaoMZa50rwfarCG12Z1T4gv-bOShvC76Pfk2bPSkydQBQYSWXVe7SZqBWFp3BnbGAjOZ3fRQ9p2n5HIFL9pn4kN8Eu3Q1twhzKmrEMo1JGB6xY4zSy_B__Zh9_4agQB8hUiXNRpb-B1WuxeO5curzYntr35NXBi833VmQTObvpbyrJgY7EYm7qwkdUWuNfRn-Ae5xzG7tR747qtuMFaigvubiyjAKoTfMqh1WrPMpwI2NvbUaBL7Ty5EwJm1YODta3FSa58hbPQ',
-                'Content-Type': 'application/json',
-                'Cookie': 'bcookie="v=2&f4a53cc3-9f87-47d7-8a78-cf544bcd2e41"; lang=v=2&lang=en-us; lidc="b=TB51:s=T:r=T:a=T:p=T:g=3357:u=44:x=1:i=1676875883:t=1676936873:v=2:sig=AQGEsmudu-k84aZZ5WD0IjoDhRs8aEDP"'
+                'Authorization': 'Bearer AQXU79843wDLMsTDFAFtz-WDj-Pfnpo64_l9yPZHLRiDMoqjJwrY5CpN7rN8ADstjHSRVeDDyjgyPOnx2_uL0CCjQWoQ8DObGlmTA0m5xz0qGgqJfKFmMX2Py2yDvcoeoECnQP2JWDnN_JhEWsA98nfBQoem0FsAu7IysbowK8G5nga3kofyCVJewT2QU1Rp9u-kD4g9VCIxv5nID3xSD6LYo3v539MRAssV2k2xZjKWbx1WMlO_z1tNx1XB7SWueikl9tYCNdRsp0PC6U3ao1Cr_VQx7B1s6k71Kbp0A2NZojG0CgTR2i3pqDbUf77KPJ-JS-UoyRT5UwvOYDJF7xA3AplKOQ',
+                'Content-Type': 'application/json'
                 }
 
                 response = requests.request("POST", url, headers=headers, data=payload)
