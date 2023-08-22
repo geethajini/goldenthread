@@ -733,7 +733,7 @@ def post_job():
                 url = "https://api.linkedin.com/v2/ugcPosts"
 
                 payload = json.dumps({
-                "author": "urn:li:person:PUwo_FRSub",
+                "author": "urn:li:person:Ayyquo2cKD",
                 "lifecycleState": "PUBLISHED",
                 "specificContent": {
                     "com.linkedin.ugc.ShareContent": {
